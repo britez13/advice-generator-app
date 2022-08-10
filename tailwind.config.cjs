@@ -12,7 +12,11 @@ module.exports = {
       darkBlue: "hsl(218, 23%, 16%)",
     },
     
-    extend: {},
+    extend: {
+      fontFamily: {
+        'manrope': ['"Manrope"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
